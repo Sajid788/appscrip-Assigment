@@ -1,0 +1,87 @@
+.controlWrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.countText {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.buttonGroup {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+
+.filterButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #888792;
+  padding: 5px 10px;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.filterButton:hover {
+  color: #000;
+}
+
+.arrowIndicator {
+  margin-left: 8px;
+  font-size: 12px;
+}
+
+.sortWrapper {
+  position: relative;
+}
+
+.sortSelect {
+  padding: 5px 25px 5px 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 14px;
+  cursor: pointer;
+  appearance: none;
+  position: relative;
+}
+
+.sortSelect::after {
+  content: "▼";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .countDisplayWrapper {
+    display: none;
+  }
+
+  .arrowIndicator {
+    display: none;
+  }
+
+  .filterButton {
+    border: none;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .controlWrapper {
+    padding: 0px;
+  }
+}
