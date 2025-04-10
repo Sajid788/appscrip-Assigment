@@ -5,13 +5,11 @@ import styles from "../styles/Footer.module.css"
 import gpayIcon from '../assets/google_pay.png';
 import mastercardIcon from '../assets/card.png';
 import paypalIcon from '../assets/paypal.png';
-import amexIcon from '../assets/amex.png';
-import applePayIcon from '../assets/pay.png';
-import instagramIcon from '../assets/instagram_logo.png';
-import linkedinIcon from '../assets/linkedin.png';
 import UsaFlag from '../assets/usa.png';
 import Arrow from '../assets/arrow-right.png';
 import Image from 'next/image';
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 export default function ModernFooter() {
   const [userEmail, setUserEmail] = useState('');
@@ -120,8 +118,8 @@ export default function ModernFooter() {
           {(isSmallScreen ? activeSection === 'follow' : true) && (
             <div>
               <div className={styles.socialGroup}>
-                <a href="/" className={styles.socialItem}><Image src={instagramIcon} width={51} height={30} alt="Instagram" /></a>
-                <a href="/" className={styles.socialItem}><Image src={linkedinIcon} width={51} height={30} alt="LinkedIn" /></a>
+                <a href="/" ><FaInstagram /></a>
+                <a href="/"><FaLinkedin /></a>
               </div>
 
               <div className={styles.paymentsBox}>
@@ -130,8 +128,6 @@ export default function ModernFooter() {
                   <Image src={gpayIcon} width={51} height={30} alt="Google Pay" />
                   <Image src={mastercardIcon} width={51} height={30} alt="Mastercard" />
                   <Image src={paypalIcon} width={51} height={30} alt="PayPal" />
-                  <Image src={amexIcon} width={51} height={30} alt="Amex" />
-                  <Image src={applePayIcon} width={51} height={30} alt="Apple Pay" />
                 </div>
               </div>
             </div>
