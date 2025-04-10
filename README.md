@@ -35,6 +35,7 @@ Screenshot of the desktop layout showing product cards and filters.
 
 ###  Mobile-Friendly UI  
 Responsive view for smartphones and tablets.
+
 ![image](https://github.com/user-attachments/assets/cfebde3c-da59-4b7e-9f79-0f805a0341f9)
 
 
