@@ -30,9 +30,13 @@ It leverages **Server-Side Rendering (SSR)** to fetch real-time data from the Fa
 
 ###  Desktop Interface  
 Screenshot of the desktop layout showing product cards and filters.
+![image](https://github.com/user-attachments/assets/a371a68e-d8c8-495b-9a1f-830721b84667)
+
 
 ###  Mobile-Friendly UI  
 Responsive view for smartphones and tablets.
+![image](https://github.com/user-attachments/assets/cfebde3c-da59-4b7e-9f79-0f805a0341f9)
+
 
 ---
 
